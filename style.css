@@ -1,14 +1,39 @@
+*{
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+.h1{
+    font-size: 4.5rem;
+}
 .jumbotron{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.About{
     /* padding : 2rem 1rem; 2 atas bawah , 1 kanan kiri */
     padding-top: 7rem;
     background-color: #e2edff;
 }
-#projects{
-    background-color: #e2edff;
+.bg-home{
+    background: linear-gradient( rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("./img/university.jpg");
+    background-size: 100%;
+    object-fit: contain; 
+    overflow-x: hidden;
 }
 
-section{
-    padding-top: 7rem;
+.btn-jelajahi{
+    color: white;
+    border: 1px solid white;
+    width: 100px;
+}
+.btn-jelajahi:hover{
+    border: 1px solid #3957B8;
+    background: #3957B8;
+    color: white;
+    transition: 1s;
 }
 
 .gallery-img{
@@ -21,4 +46,24 @@ section{
 
 nav{
     transition: 0.5;
+}
+
+.card-btn{
+    text-decoration: none;
+    color: #3957B8;
+
+}
+.card:hover{
+    text-decoration: none;
+    color: white;
+    background: #3957B8;
+}
+
+.card{
+    height: 140px;
+    align-items: center;
+    
+}
+.bg-hal{
+    background-color: #E8F1F3;
 }
