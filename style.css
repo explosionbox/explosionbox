@@ -18,7 +18,7 @@
     background-color: #e2edff;
 }
 .bg-home{
-    background: linear-gradient( rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("./img/bg-perpus.jpg");
+    background: linear-gradient( rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("./img/bg-home.jpeg");
     background-size: 100%;
     object-fit: contain; 
     overflow-x: hidden;
@@ -51,7 +51,6 @@ nav{
 .card-btn{
     text-decoration: none;
     color: #3957B8;
-
 }
 .card:hover{
     text-decoration: none;
@@ -60,7 +59,7 @@ nav{
 }
 
 .card{
-    height: 140px;
+    height: 190px;
     align-items: center;
     
 }
