@@ -26,7 +26,7 @@ h1{
     background-color: #e2edff;
 }
 .bg-home{
-    background: linear-gradient( rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("./img/bg-home.jpeg");
+    background: linear-gradient( rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("./img/foto-perpus1.jpeg");
     background-size: 100%;
     object-fit: contain; 
     overflow-x: hidden;
