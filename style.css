@@ -88,3 +88,47 @@ nav{
 .bg-hal{
     background-color: #E8F1F3;
 }
+
+.gallery-item {
+    position: relative;
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+  
+  .gallery-overlay {
+    background-color: black;
+    position: relative;
+    border-radius: 20px;
+
+  }
+  
+  .gallery-img {
+    width: 100%;
+    opacity: 0.5;
+    border-radius: 20px;
+
+  }
+  
+  .gallery-content {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Atur warna teks sesuai keinginan Anda */
+  }
+  .title{
+    font-size: 42px;
+  }
+  
+  .deskripsi{
+    font-size: 14px;
+  }
+
+  .sec{
+    font-size: 12px;
+  }
+  
+  
+  
