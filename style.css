@@ -2,6 +2,10 @@
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
 }
+.exp-title{
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 700;
+}
 h1{
     font-size: 3.5rem;
 }
@@ -45,8 +49,8 @@ h1{
     width: 100px;
 }
 .btn-jelajahi:hover{
-    border: 1px solid #3957B8;
-    background: #3957B8;
+    border: 1px solid #844F39;
+    background: #844f39;
     color: white;
     transition: 1s;
 }
@@ -65,12 +69,12 @@ nav{
 
 .card-btn{
     text-decoration: none;
-    color: #3957B8;
+    color: #844F39;
 }
 .card:hover{
     text-decoration: none;
     color: white;
-    background: #3957B8;
+    background: #844F39;
 }
 
 .card{
@@ -128,7 +132,7 @@ nav{
     }
 }
 .bg-hal{
-    background-color: #E8F1F3;
+    background-color: #F5E7DE;
 }
 .gallery-item {
     position: relative;
@@ -222,7 +226,7 @@ nav{
     color: white;
   }
   .bg-card-bacaumum:hover{
-    background-color: #3957B8;
+    background-color: #844F39;
   }
   .bg-card-bacaumum{
     background-color: #343b48;
@@ -232,7 +236,7 @@ nav{
   }
 
   .bg-halasli{
-    background: linear-gradient( rgba(255,255,255,0.78),rgba(255,255,255,0.78)),url("./img/bg/ketanlusi.jpg");
+    background: linear-gradient( rgba(245, 231, 222, 0.88),rgba(255,255,255,0.78)),url("./img/bg/ketanlusi.jpg");
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.5);
     height: 100%;
