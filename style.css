@@ -6,6 +6,7 @@
   font-family: 'Exo 2', sans-serif;
   font-weight: 700;
 }
+
 h1{
     font-size: 3.5rem;
 }
@@ -16,6 +17,7 @@ h1{
     h1 {
         font-size: 1.5rem;
     }
+    
 }
 .jumbotron{
     display: flex;
@@ -88,6 +90,9 @@ nav{
     .svg-tatatertib{
         margin-top: -60px;
     }
+    .img-index{
+      width: 60%;
+    }
 }
 @media (min-width: 580px) {
     .card {
@@ -102,6 +107,15 @@ nav{
     .svg-steaktempe{
         margin-top: -150px;
     }
+    .img-index{
+      width: 60%;
+    }
+    
+}
+@media (min-width:700px){
+  .img-index{
+    width: 40%;
+  }
 }
 @media (min-width: 880px) {
     .card {
@@ -116,6 +130,7 @@ nav{
     .svg-steaktempe{
         margin-top: -150px;
     }
+    
 }
 @media (min-width: 1146px) {
     .card {
@@ -129,6 +144,9 @@ nav{
     }
     .svg-tatatertib{
         margin-top: -150px;
+    }
+    .img-index{
+      width: 360px;
     }
 }
 .bg-hal{
