@@ -52,6 +52,8 @@
     <!-- Akhir About Me -->
 
     <!-- Project -->
+    <audio id="audioElement" src="../audio/button-klik.mp3"></audio>
+
     <section id="projects" style="padding-top: 5rem">
       <div class="container">
         <a href="#" class="btn" id="kembaliLink"
@@ -60,7 +62,7 @@
         >
         <div class="row justify-content-center text-center align-items-center">
           <div class="col-4 p-0">
-            <a href="perpus_keliling.html" class="card-btn">
+            <a href="" class="card-btn" id="myLink">
               <div
                 class="card"
                 style="border: 1px solid #844f39"
@@ -71,7 +73,7 @@
                   class="card-body d-flex flex-column justify-content-center align-items-center"
                   style="height: 100%"
                 >
-                  <h5 class="card-title exp-title">Perpustakaan Keliling</h5>
+                  <h5 class="card-title exp-title"></h5>
                 </div>
               </div>
             </a>
@@ -79,7 +81,7 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-4 p-0">
-            <a href="ruang_difabel.html" class="card-btn">
+            <a href="ruang_baca_anak.html" class="card-btn" id="myLink1">
               <div
                 class="card"
                 style="border: 1px solid #844f39"
@@ -90,13 +92,13 @@
                   class="card-body d-flex flex-column justify-content-center align-items-center"
                   style="height: 100%"
                 >
-                  <h5 class="card-title exp-title">Ruang Difabel</h5>
+                  <h5 class="card-title exp-title">Ruang Baca Anak</h5>
                 </div>
               </div>
             </a>
           </div>
           <div class="col-4 p-0">
-            <a href="" class="card-btn">
+            <a href="" class="card-btn" id="myLink2">
               <div
                 class="card"
                 style="
@@ -117,7 +119,7 @@
             </a>
           </div>
           <div class="col-4 p-0">
-            <a href="layanan_steak_tempe.html" class="card-btn">
+            <a href="ruang_baca_umum.html" class="card-btn" id="myLink3">
               <div
                 class="card"
                 style="border: 1px solid #844f39"
@@ -128,7 +130,7 @@
                   class="card-body d-flex flex-column justify-content-center align-items-center"
                   style="height: 100%"
                 >
-                  <h5 class="card-title exp-title">Layanan Steak Tempe</h5>
+                  <h5 class="card-title exp-title">Ruang Baca Umum</h5>
                 </div>
               </div>
             </a>
@@ -136,7 +138,7 @@
         </div>
         <div class="row justify-content-center text-center align-items-center">
           <div class="col-4 p-0">
-            <a href="ketansilusi.html" class="card-btn">
+            <a href="" class="card-btn" id="myLink4">
               <div
                 class="card"
                 style="border: 1px solid #844f39"
@@ -147,7 +149,7 @@
                   class="card-body d-flex flex-column justify-content-center align-items-center"
                   style="height: 100%"
                 >
-                  <h5 class="card-title exp-title">KETAN SI LUSI</h5>
+                  <h5 class="card-title exp-title"></h5>
                 </div>
               </div>
             </a>
@@ -175,6 +177,100 @@
       document.getElementById("kembaliLink").onclick = function () {
         history.back(); // Ini akan mengarahkan pengguna kembali ke halaman sebelumnya dalam riwayat perambanan
       };
+    </script>
+    <script>
+      document
+        .getElementById("myLink")
+        .addEventListener("click", function (event) {
+          event.preventDefault(); // Menghentikan navigasi bawaan dari tag <a>
+          playSoundAndNavigate();
+        });
+      document
+        .getElementById("myLink1")
+        .addEventListener("click", function (event) {
+          event.preventDefault(); // Menghentikan navigasi bawaan dari tag <a>
+          playSoundAndNavigate1();
+        });
+      document
+        .getElementById("myLink2")
+        .addEventListener("click", function (event) {
+          event.preventDefault(); // Menghentikan navigasi bawaan dari tag <a>
+          playSoundAndNavigate2();
+        });
+      document
+        .getElementById("myLink3")
+        .addEventListener("click", function (event) {
+          event.preventDefault(); // Menghentikan navigasi bawaan dari tag <a>
+          playSoundAndNavigate3();
+        });
+      document
+        .getElementById("myLink4")
+        .addEventListener("click", function (event) {
+          event.preventDefault(); // Menghentikan navigasi bawaan dari tag <a>
+          playSoundAndNavigate4();
+        });
+
+      function playSoundAndNavigate() {
+        var audioElement = document.getElementById("audioElement");
+
+        audioElement.play();
+
+        // Menavigasi ke halaman selanjutnya setelah pemutaran suara selesai
+        audioElement.addEventListener("ended", function () {
+          window.location.href = document
+            .getElementById("myLink")
+            .getAttribute("href");
+        });
+      }
+
+      function playSoundAndNavigate1() {
+        var audioElement = document.getElementById("audioElement");
+
+        audioElement.play();
+
+        // Menavigasi ke halaman selanjutnya setelah pemutaran suara selesai
+        audioElement.addEventListener("ended", function () {
+          window.location.href = document
+            .getElementById("myLink1")
+            .getAttribute("href");
+        });
+      }
+      function playSoundAndNavigate2() {
+        var audioElement = document.getElementById("audioElement");
+
+        audioElement.play();
+
+        // Menavigasi ke halaman selanjutnya setelah pemutaran suara selesai
+        audioElement.addEventListener("ended", function () {
+          window.location.href = document
+            .getElementById("myLink2")
+            .getAttribute("href");
+        });
+      }
+      function playSoundAndNavigate3() {
+        var audioElement = document.getElementById("audioElement");
+
+        audioElement.play();
+
+        // Menavigasi ke halaman selanjutnya setelah pemutaran suara selesai
+        audioElement.addEventListener("ended", function () {
+          window.location.href = document
+            .getElementById("myLink3")
+            .getAttribute("href");
+        });
+      }
+      function playSoundAndNavigate4() {
+        var audioElement = document.getElementById("audioElement");
+
+        audioElement.play();
+
+        // Menavigasi ke halaman selanjutnya setelah pemutaran suara selesai
+        audioElement.addEventListener("ended", function () {
+          window.location.href = document
+            .getElementById("myLink4")
+            .getAttribute("href");
+        });
+      }
     </script>
   </body>
 </html>

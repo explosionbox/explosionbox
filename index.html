@@ -47,7 +47,7 @@
     <section class="jumbotron text-center">
       <!-- <h3 class="najudul pt-1 text-white">Sistem Prediksi Kelulusan</h3>
       <a href="page/halaman2.html" class="btn btn-jelajahi mt-3">Jelajahi</a> -->
-      <a href="page/halaman2.html"
+      <a href="page/halaman2.html" id="myLink"
         ><img
           src="img/box.png"
           alt=""
@@ -57,6 +57,7 @@
           data-aos-duration="1500"
           class="img-index mt-4"
       /></a>
+      <audio id="audioElement" src="audio/button-klik.mp3"></audio>
     </section>
     <section class="svg-tatatertib">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -101,6 +102,27 @@
         delay: 1.5,
         ease: "back",
       });
+    </script>
+    <script>
+      document
+        .getElementById("myLink")
+        .addEventListener("click", function (event) {
+          event.preventDefault(); // Menghentikan navigasi bawaan dari tag <a>
+          playSoundAndNavigate();
+        });
+
+      function playSoundAndNavigate() {
+        var audioElement = document.getElementById("audioElement");
+
+        audioElement.play();
+
+        // Menavigasi ke halaman selanjutnya setelah pemutaran suara selesai
+        audioElement.addEventListener("ended", function () {
+          window.location.href = document
+            .getElementById("myLink")
+            .getAttribute("href");
+        });
+      }
     </script>
   </body>
 </html>
