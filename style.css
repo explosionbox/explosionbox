@@ -267,19 +267,7 @@ nav{
     transition: transform 2s ease-in-out;
 }
 
-.num {
-  font-weight: 400;
-  font-size: 48px;
-}
-.numAnak {
-  font-weight: 400;
-  font-size: 48px;
-}
-.numUmum {
-  font-weight: 400;
-  font-size: 48px;
-}
-.numKoleksi {
+.jumlah {
   font-weight: 400;
   font-size: 48px;
 }
