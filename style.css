@@ -187,10 +187,11 @@ nav{
   
   .deskripsi{
     font-size: 14px;
+    font-weight: 500;
   }
 
   .sec{
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .bg-ketanlusi{
@@ -259,5 +260,29 @@ nav{
     background-color: rgba(0, 0, 0, 0.5);
     height: 100%;
   }
+
+
+  #rotating-number {
+    display: inline-block;
+    transition: transform 2s ease-in-out;
+}
+
+.num {
+  font-weight: 400;
+  font-size: 48px;
+}
+.numAnak {
+  font-weight: 400;
+  font-size: 48px;
+}
+.numUmum {
+  font-weight: 400;
+  font-size: 48px;
+}
+.numKoleksi {
+  font-weight: 400;
+  font-size: 48px;
+}
+
   
   
