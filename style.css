@@ -32,7 +32,7 @@ h1{
     background-color: #e2edff;
 }
 .bg-home{
-    background: linear-gradient( rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("./img/foto-perpus1.jpeg");
+    background: linear-gradient( rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("./img/foto-perpus-depan.jpeg");
     background-size: 100%;
     object-fit: contain; 
     overflow-x: hidden;
@@ -233,7 +233,25 @@ nav{
     color: white;
   }
   .bg-card-koleksi{
-    background: linear-gradient(rgba(132, 79, 57, 0.78), rgba(132, 79, 57, 0.98)), url("./img/bg/bg-book.jpg");
+    background: linear-gradient(rgba(132, 79, 57, 0.78), rgba(132, 79, 57, 0.91)), url("./img/koleksi.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+  }
+  .bg-card-koleksi-anak{
+    background: linear-gradient(rgba(132, 79, 57, 0.5), rgba(132, 79, 57, 0.91)), url("./img/koleksi-anak.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+  }
+  .bg-card-koleksi-referensi{
+    background: linear-gradient(rgba(132, 79, 57, 0.5), rgba(132, 79, 57, 0.91)), url("./img/koleksi-referensi.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+  }
+  .bg-card-koleksi-umum{
+    background: linear-gradient(rgba(132, 79, 57, 0.5), rgba(132, 79, 57, 0.9)), url("./img/koleksi-umum.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
