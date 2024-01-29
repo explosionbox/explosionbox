@@ -272,5 +272,12 @@ nav{
   font-size: 48px;
 }
 
+.link-baca-umum{
+  text-decoration: none;
+  color: white;
+}
+.link-baca-umum:hover{
+  color: white;
+}
   
   
