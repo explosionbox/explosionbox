@@ -310,5 +310,9 @@ nav{
 .link-baca-umum:hover{
   color: white;
 }
-  
+
+.justify-text{
+  text-align: justify;
+  text-justify: inter-word;
+}
   
