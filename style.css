@@ -220,6 +220,12 @@ nav{
     background-repeat: no-repeat;
     color: white;
   }
+  .bg-card-referensi{
+    background: linear-gradient(rgba(132, 79, 57, 0.78), rgba(132, 79, 57, 0.78)), url("./img/bg/bg-reference.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+  }
   .bg-card-tatatertib{
     background: linear-gradient(rgba(220, 53, 69, 0.85), rgba(220, 53, 69, 0.85)), url("./img/bg/tata_tertib.jpg");
     background-size: cover;
@@ -268,6 +274,7 @@ nav{
     background-repeat: no-repeat;
     color: white;
   }
+  
   .bg-card-bacaumum:hover{
     background-color: #844F39;
   }
