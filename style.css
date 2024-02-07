@@ -262,8 +262,14 @@ nav{
     background-repeat: no-repeat;
     color: white;
   }
+  .bg-card-koleksi-terbitan{
+    background: linear-gradient(rgba(132, 79, 57, 0.78), rgba(132, 79, 57, 0.91)), url("./img/koleksi/terbitan-berkala.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+  }
   .bg-card-koleksi-probo{
-    background: linear-gradient(rgba(132, 79, 57, 0.78), rgba(132, 79, 57, 0.91)), url("./img/Iprobolinggo.jpg");
+    background: linear-gradient(rgba(132, 79, 57, 0.78), rgba(132, 79, 57, 0.91)), url("./img/koleksi/Iprobolinggo.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
