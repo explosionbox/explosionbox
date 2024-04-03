@@ -32,12 +32,12 @@ h1{
     background-color: #e2edff;
 }
 .bg-home{
-    background: linear-gradient( rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("./img/foto-perpus-depan.jpeg");
+    background: linear-gradient( rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("./img/foto-perpus-depan.jpg");
     background-size: cover;
 }
 
 .bg-home2{
-    background: linear-gradient( rgba(0,0,0,0.87),rgba(0,0,0,0.87)),url("./img/foto-perpus1.jpeg");
+    background: linear-gradient( rgba(0,0,0,0.87),rgba(0,0,0,0.87)),url("./img/foto-perpus1.jpg");
     background-size: 100%;
     object-fit: contain; 
     overflow-x: hidden;
@@ -237,25 +237,25 @@ nav{
     color: white;
   }
   .bg-card-koleksi{
-    background: linear-gradient(rgba(132, 79, 57, 0.78), rgba(132, 79, 57, 0.91)), url("./img/koleksi.jpeg");
+    background: linear-gradient(rgba(132, 79, 57, 0.78), rgba(132, 79, 57, 0.91)), url("./img/koleksi.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
   }
   .bg-card-koleksi-anak{
-    background: linear-gradient(rgba(132, 79, 57, 0.5), rgba(132, 79, 57, 0.91)), url("./img/koleksi-anak.jpeg");
+    background: linear-gradient(rgba(132, 79, 57, 0.5), rgba(132, 79, 57, 0.91)), url("./img/koleksi-anak.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
   }
   .bg-card-koleksi-referensi{
-    background: linear-gradient(rgba(132, 79, 57, 0.5), rgba(132, 79, 57, 0.91)), url("./img/koleksi-referensi.jpeg");
+    background: linear-gradient(rgba(132, 79, 57, 0.5), rgba(132, 79, 57, 0.91)), url("./img/koleksi-referensi.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
   }
   .bg-card-koleksi-umum{
-    background: linear-gradient(rgba(132, 79, 57, 0.5), rgba(132, 79, 57, 0.9)), url("./img/koleksi-umum.jpeg");
+    background: linear-gradient(rgba(132, 79, 57, 0.5), rgba(132, 79, 57, 0.9)), url("./img/koleksi-umum.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
@@ -320,3 +320,42 @@ nav{
   text-justify: inter-word;
 }
   
+
+
+.button {
+  --c:  #E1306C; /* the color*/
+  
+  box-shadow: 0 0 0 .1em inset var(--c); 
+  --_g: linear-gradient(var(--c) 0 0) no-repeat;
+  background: 
+    var(--_g) calc(var(--_p,0%) - 100%) 0%,
+    var(--_g) calc(200% - var(--_p,0%)) 0%,
+    var(--_g) calc(var(--_p,0%) - 100%) 100%,
+    var(--_g) calc(200% - var(--_p,0%)) 100%;
+  background-size: 50.5% calc(var(--_p,0%)/2 + .5%);
+  outline-offset: .1em;
+  transition: background-size .4s, background-position 0s .4s;
+  text-decoration: none;
+  color: white;
+}
+.button:hover {
+  --_p: 100%;
+  transition: background-position .4s, background-size 0s;
+  color: white;
+}
+.button:active {
+  box-shadow: 0 0 9e9q inset #0009; 
+  background-color: var(--c);
+  color: #fff;
+}
+
+.button {
+  font-family: system-ui, sans-serif;
+  font-size: 1.5rem;
+  cursor: pointer;
+  width: 100%;
+  padding: 1rem;
+  font-weight: bold;  
+  border: none;
+  border-radius: 20px;
+}
