@@ -55,6 +55,12 @@ h1{
     transition: 1s;
 }
 
+.btn-tombol{
+  border: 1px solid #844F39; 
+  background: url("./img/bg/btn-tengah.png");
+  background-size: cover;
+}
+
 .gallery-img{
     height: 360px;
 }
@@ -73,8 +79,18 @@ nav{
 }
 .card:hover{
     text-decoration: none;
-    color: white;
-    background: #844F39;
+    color: #844F39;
+    background: linear-gradient( rgba(132, 79, 57,0.78),rgba(132, 79, 57,0.78)),url("./img/bg/btn-tengah.png");
+    background-size: cover;
+
+
+}
+
+.btn-text{
+  color: white;
+  background: #844F39;
+
+
 }
 
 .card{
@@ -290,7 +306,7 @@ nav{
   }
 
   .bg-halasli{
-    background: linear-gradient( rgba(245, 231, 222, 0.88),rgba(255,255,255,0.78)),url("./img/bg/ketanlusi.jpg");
+    background: url("./img/bg/bg-perpus-ai.png");
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.5);
     height: 100%;
